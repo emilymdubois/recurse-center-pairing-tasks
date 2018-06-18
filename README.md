@@ -3,6 +3,7 @@
 A collection of tasks completed through the Mapbox mentorship program.
 
 - [Depth-first searcher](./exercise-1/readme.md)
+- [Lisp parser]('./exercise-2/readme.md')
 
 ## Install
 
