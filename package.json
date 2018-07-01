@@ -1,0 +1,25 @@
+{
+  "name": "mentorship",
+  "version": "1.0.0",
+  "description": "A collection of tasks completed through the Mapbox mentorship program",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilymdubois/mentorship.git"
+  },
+  "author": "Emily DuBois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilymdubois/mentorship/issues"
+  },
+  "homepage": "https://github.com/emilymdubois/mentorship#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
+}
