@@ -7,19 +7,15 @@
  * @param searchNode string - A node in the search tree.
  */
 function depthFirstSearcher(searchTree, searchNode) {
-  let response;
-
-  function searchTreeByNode(searchTree, searchNode) {
-    if (searchTree.get('node') === searchNode) response = searchTree;
-    const children = searchTree.get('children');
-    for (const child of children) {
-      searchTreeByNode(child, searchNode);
-    }
+  if (searchTree.get('node') === searchNode) return searchTree;
+  const children = searchTree.get('children');
+  for (const child of children) {
+    let response;
+    response = depthFirstSearcher(child, searchNode);
+    if (response) return response;
   }
 
-  searchTreeByNode(searchTree, searchNode);
-  if (!response) response = null;
-  return response;
+  return null;
 };
 
 module.exports = depthFirstSearcher;
