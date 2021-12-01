@@ -1,21 +1,21 @@
 {
-  "name": "mentorship",
+  "name": "recurse-center-pairing-tasks",
   "version": "1.0.0",
-  "description": "A collection of tasks completed through the Mapbox mentorship program",
+  "description": "Solutions to Recurse Center’s pairing interview tasks",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilymdubois/mentorship.git"
+    "url": "git+https://github.com/emilymdubois/recurse-center-pairing-tasks.git"
   },
   "author": "Emily DuBois",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilymdubois/mentorship/issues"
+    "url": "https://github.com/emilymdubois/recurse-center-pairing-tasks/issues"
   },
-  "homepage": "https://github.com/emilymdubois/mentorship#readme",
+  "homepage": "https://github.com/emilymdubois/recurse-center-pairing-tasks#readme",
   "devDependencies": {
     "jest": "^27.4.2"
   },
